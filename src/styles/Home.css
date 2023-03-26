@@ -1,3 +1,5 @@
 .bg{
     background-image: linear-gradient(to right bottom, #22577a, #1c6586, #177390, #188298, #22909f, #239aa3, #29a4a5, #34aea6, #36b6a5, #3ebda2, #49c59e, #57cc99);
+    width: 100vw;
+    height: 100vh;
 }
