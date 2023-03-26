@@ -1,9 +1,12 @@
 import React from 'react'
 import '../styles/App.css';
+import Home from './Home';
 
 function App() {
   return (
-    <div>Hello World</div>
+    <div>
+      <Home/>
+    </div>
   )
 }
 
