@@ -1,14 +1,55 @@
-import React from 'react'
-import Navbar from './Navbar'
+import React, { useState } from "react";
+import Navbar from "./Navbar";
+import Analysis from "./Analysis";
+import Circle from "../assets/circle.png";
+import Community from "./Community";
+
+import "../styles/Report.css";
 
 function Report() {
-  return (
-    <div>
-        <Navbar/>
-        Report
+  const [input, setInput] = useState("");
 
+  const reset = (e) => {
+    e.preventDefault();
+    setInput("");
+  };
+
+  return (
+    <div className="container">
+      <Navbar />
+      {/* flex */}
+
+      <div className="top-section">
+        <div className="circle-container">
+          <img src={Circle} alt="circle" />
+        </div>
+
+        <div className="text_box">
+          <form action="#">
+            <textarea
+              value={input}
+              className="box"
+              onChange={(e) => setInput(e.target.value)}
+              placeholder="Check if the SMS you received is spam or not..."
+            ></textarea>
+            <div className="submission">
+              <button onClick={reset}>Reset</button>
+              <button type="submit">Check</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div className="bottom-section">
+        <div className="report-analysis">
+          <Analysis/>
+        </div>
+      </div>
+      <div className="community-score">
+        <Community />
+      </div>
     </div>
-  )
+  );
 }
 
-export default Report
+export default Report;

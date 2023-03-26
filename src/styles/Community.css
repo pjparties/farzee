@@ -1,0 +1,19 @@
+.bar-container{
+    max-width: 300px;
+    height: 10px;
+    background-color: rgb(209, 4, 4);
+    border-Radius: 5px;
+    margin-top: 10px;
+}
+
+.like-bar{
+    height: 10px;
+    background-color: rgb(34, 203, 34);
+    border-radius: 5px;
+}
+
+#like-button{
+
+}
+
+#dislike-button{}

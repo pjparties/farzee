@@ -6,7 +6,8 @@ import Report from './Report';
 function App() {
   return (
     <div>
-      <Home/>
+      {/* <Home /> */}
+      <Report/>
     </div>
   )
 }
