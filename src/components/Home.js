@@ -5,10 +5,10 @@ import big from '../assets/logo-big.png'
 import '../styles/Home.css'
 
 function Home() {
-  const [inp, setInp] = useState('')
+  const [input, setInput] = useState('')
   const reset = (e) => {
     e.preventDefault();
-    setInp('');
+    setInput('');
   }
   return (
     <div className='bg'>
@@ -17,7 +17,7 @@ function Home() {
       <div className='text_box'>
         <form action="#">
           {/* <input value={inp} type="text" onChange={e=>setInp(e.target.value)} placeholder="Check if your SMS or phone number is in data breach" className='box' /> */}
-          <textarea value={inp} id="box" onChange={e=>setInp(e.target.value)} placeholder="Check if your SMS or phone number is in data breach">
+          <textarea value={input} id="box" onChange={e=>setInput(e.target.value)} placeholder="Check if your SMS or phone number is in data breach">
             
           </textarea>
           <div className='submission'>
