@@ -3,8 +3,9 @@ import Navbar from "./Navbar";
 import Analysis from "./Analysis";
 import Circle from "../assets/circle.png";
 import Community from "./Community";
-
+import Chart from "./Chart";
 import "../styles/Report.css";
+
 
 function Report() {
   const [input, setInput] = useState("");
@@ -21,7 +22,9 @@ function Report() {
 
       <div className="top-section">
         <div className="circle-container">
-          <img src={Circle} alt="circle" />
+          {/* <img src={Circle} alt="circle" /> */}
+          <Chart />
+          <span className="data">75%</span>
         </div>
 
         <div className="text_box">

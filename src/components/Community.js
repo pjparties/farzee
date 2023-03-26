@@ -9,33 +9,34 @@ const LikeDislike = () => {
     const [ratioLikes, setRatioLikes] = useState(0);
 
     useEffect(() => {
-    const total = likes + dislikes;
-    const ratio = likes / total;
-    setRatioLikes(ratio);
+        const total = likes + dislikes;
+        const ratio = likes / total;
+        setRatioLikes(ratio);
     }, [likes, dislikes]);
 
     return (
-    <div className="bar-main">
+        <div className="bar-main">
 
-        <div className="bar-container">
-            <div className="like-bar" style={{
-            width: `${ratioLikes * 100}%`,
-            }}></div>
-        
-        </div>
+            <div className="bar-container">
+                <div className="like-bar" style={{
+                    width: `${ratioLikes * 100}%`,
+                }}></div>
+
+            </div>
+
             <div className="like-dislike-container">
-                
+
                 <div className="like-container">
                     <p>{likes}</p>
-                    <AiFillLike className="like-button" onClick={() => setLikes(likes + 1)}/>
+                    <AiFillLike className="like-button" onClick={() => setLikes(likes + 1)} />
                 </div>
-            
+
                 <div className="dislike-container">
                     <p>{dislikes} </p>
-                    <AiFillDislike classname="dislike-button" onClick={() => setDislikes(dislikes + 1)}/>
+                    <AiFillDislike classname="dislike-button" onClick={() => setDislikes(dislikes + 1)} />
                 </div>
             </div>
-    </div>
+        </div>
     );
 };
 
