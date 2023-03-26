@@ -1,0 +1,31 @@
+.navbar{
+    background-image: linear-gradient(to bottom, #152829, #163233, #163c3d, #154648, #135152, #0d5155, #065259, #00525c, #004858, #003f52, #02354b, #092c43);    width: 100vw;
+    opacity: 0.7;
+    height: 12vh;
+    border-bottom: 1px solid wheat;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navbar-logo{
+    display: flex;
+    object-fit: contain;
+    padding: 2vh;
+
+}
+
+.navbar-links{
+    display: flex;
+    align-items: center;
+    margin-right: 1vw;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+    margin: 0 2vw;
+    font-size: 1.2rem;
+    font-weight: 300;
+    transition: all 0.3s ease-in-out;
+}
