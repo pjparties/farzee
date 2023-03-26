@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-#box {
+.box {
     /* add media query */
     border: 1px solid black;
     border-radius: 15px;
@@ -28,6 +28,7 @@
     width: 55vw;
     padding: 1em;
     resize: none;
+    font-size: 1rem;
 }
 
 .submission {
