@@ -18,7 +18,7 @@
     justify-content: center;
 }
 
-.box {
+.box2 {
     /* add media query */
     border: 1px solid black;
     border-radius: 15px;
@@ -27,6 +27,7 @@
     padding: 1em;
     resize: none;
     font-size: 1rem;
+    margin-top: 2em;
 }
 
 .report-analysis{
@@ -51,5 +52,5 @@
     top: -11.2rem;
     left: 6.9rem;
     font-size: 3rem;
-    font-weight: 700;
+    font-weight: 500;
 }

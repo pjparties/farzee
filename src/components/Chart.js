@@ -14,7 +14,7 @@ function Chart() {
         datasets: [{
             label: 'Spam',
             data: [49, 19],
-            backgroundColor: ['green','grey'],
+            backgroundColor: ['#38b000','#c62e2e'],
             borderColor: ['black', 'black'],
         }]
     }
@@ -24,7 +24,8 @@ function Chart() {
             legend: {
                 display: false
             }
-        }
+        },
+        cutout: 120
     }
     return (
         <div className='pie'>

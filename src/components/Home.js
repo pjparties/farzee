@@ -16,7 +16,7 @@ function Home() {
       <img className='logo' src={big} alt='logo' />
       <div className='text_box'>
         <form action="#">
-          <textarea value={input} className="box" onChange={e=>setInput(e.target.value)} placeholder="Check if the SMS you received is spam or not...">
+          <textarea value={input} className="box1" onChange={e=>setInput(e.target.value)} placeholder="Check if the SMS you received is spam or not...">
             
           </textarea>
           <div className='submission'>

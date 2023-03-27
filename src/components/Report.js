@@ -31,7 +31,7 @@ function Report() {
           <form action="#">
             <textarea
               value={input}
-              className="box"
+              className="box2"
               onChange={(e) => setInput(e.target.value)}
               placeholder="Check if the SMS you received is spam or not..."
             ></textarea>
