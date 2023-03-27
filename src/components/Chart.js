@@ -13,9 +13,9 @@ function Chart() {
         labels: ['Spam', 'Not Spam'],
         datasets: [{
             label: 'Spam',
-            data: [49, 19],
-            backgroundColor: ['green','grey'],
-            borderColor: ['black', 'black'],
+            data: [75, 25],
+            backgroundColor: ['red','grey'],
+            borderColor: ['red', 'green'],
         }]
     }
 
