@@ -56,3 +56,8 @@
 .submission>button:hover {
     cursor: pointer;
 }
+
+.check{
+    text-decoration: none;
+    color: white;
+}

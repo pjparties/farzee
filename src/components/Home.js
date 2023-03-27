@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Navbar from './Navbar'
 import big from '../assets/logo-big.png'
-
+import { Link } from "react-router-dom";
 import '../styles/Home.css'
 
 function Home() {
@@ -21,7 +21,7 @@ function Home() {
           </textarea>
           <div className='submission'>
             <button onClick={reset} >Reset</button>
-            <button type='submit'>Check</button>
+            <button type='submit'><Link className='check' to="Report">Check</Link></button>
           </div>
         </form>
       </div>

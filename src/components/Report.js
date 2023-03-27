@@ -4,6 +4,7 @@ import Analysis from "./Analysis";
 import Circle from "../assets/circle.png";
 import Community from "./Community";
 import Chart from "./Chart";
+import { Link } from "react-router-dom";
 import "../styles/Report.css";
 
 
@@ -37,7 +38,7 @@ function Report() {
             ></textarea>
             <div className="submission">
               <button onClick={reset}>Reset</button>
-              <button type="submit">Check</button>
+              <button type="submit"><Link className='check' to="/">Check</Link></button>
             </div>
           </form>
         </div>
