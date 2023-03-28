@@ -25,7 +25,7 @@ function Report() {
         <div className="circle-container">
           {/* <img src={Circle} alt="circle" /> */}
           <Chart />
-          <span className="data">75%</span>
+          <span className="data">90%</span>
         </div>
 
         <div className="text_box">
