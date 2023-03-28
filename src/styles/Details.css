@@ -1,7 +1,5 @@
 .container {
     overflow: scroll;
-    /* background-repeat: no-repeat;
-    background-attachment: fixed; */
 }
 
 .title {
@@ -14,5 +12,5 @@
     float: left;
     margin:0 2em ;
     border: 2px solid black;
-    /* width: 50vw; */
+    width: 50vw;
 }
