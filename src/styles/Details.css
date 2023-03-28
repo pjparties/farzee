@@ -1,16 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap");
 .container {
     overflow: scroll;
 }
 
 .title {
     text-align: center;
-    font-size: 2em;
+    font-size: 3em;
     text-decoration: underline black;
+    margin: -1em 0;
+    font-family: 'Playfair Display', serif;
 }
 
-.img1 {
+.heading{
+    text-align: center;
+    font-size: 2.5em;
+}
+
+.sub{
+    text-align: center;
+    font-size: 2.5em;
+}
+.protocol {
     float: left;
     margin:0 2em ;
     border: 2px solid black;
-    width: 50vw;
+    width: 35vw;
+}
+
+.roadmap{
+    float: left;
+    margin:0 2em ;
+    border: 2px solid black;
+    width: 35vw;
+    margin-top: -25em;
+}
+
+.para{
+    font-size: 1.5em;
+    padding: 2em;
+}
+
+.flow{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
