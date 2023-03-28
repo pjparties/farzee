@@ -1,0 +1,18 @@
+.container {
+    overflow: scroll;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+}
+
+.title {
+    text-align: center;
+    font-size: 2em;
+    text-decoration: underline black;
+}
+
+.img1 {
+    float: left;
+    margin:0 2em ;
+    border: 2px solid black;
+    /* width: 50vw; */
+}
