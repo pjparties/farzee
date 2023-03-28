@@ -20,7 +20,7 @@
     justify-content: center;
 }
 
-.box {
+.box1 {
     /* add media query */
     border: 1px solid black;
     border-radius: 15px;
@@ -55,4 +55,9 @@
 
 .submission>button:hover {
     cursor: pointer;
+}
+
+.check{
+    text-decoration: none;
+    color: white;
 }

@@ -1,0 +1,49 @@
+.bar-main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3.5em;
+}
+
+.bar-container{
+    max-width: 500px;
+    min-width: 500px;
+    height: 10px;
+    background-color: rgb(209, 4, 4);
+    border-Radius: 5px;
+    margin-top: 10px;
+}
+
+.like-bar{
+    height: 10px;
+    background-color: rgb(34, 203, 34);
+    border-radius: 5px;
+}
+.like-dislike-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: -0.4em; */
+    max-width:300px;
+    font-size: 2em;
+}
+.like-container{
+    display: flex;
+    flex-direction: row;
+    margin-right: 2em;
+    align-items : center;
+}
+
+.dislike-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2em;
+}
+
+.like-dislike-container:hover{
+    cursor: pointer;
+}
+

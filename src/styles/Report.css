@@ -1,0 +1,56 @@
+*{
+    overflow-x:hidden ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-section{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.text_box {
+    display: flex;
+    justify-content: center;
+}
+
+.box2 {
+    /* add media query */
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 20vh;
+    width: 55vw;
+    padding: 1em;
+    resize: none;
+    font-size: 1rem;
+    margin-top: 2em;
+}
+
+.report-analysis{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    /* margin-top: 1rem; */
+    margin-left: auto;
+    margin-right: auto;
+    height: 15vh;    /* changed height */
+    width: 65vw;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.report-analysis input{
+    display: none;
+}
+
+.data{
+    position: relative;
+    top: -11.2rem;
+    left: 6.9rem;
+    font-size: 3rem;
+    font-weight: 500;
+}
