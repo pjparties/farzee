@@ -36,10 +36,10 @@ function Report() {
               onChange={(e) => setInput(e.target.value)}
               placeholder="Check if the SMS you received is spam or not..."
             ></textarea>
-            <div className="submission">
+            {/* <div className="submission">
               <button onClick={reset}>Reset</button>
-              <button type="submit"><Link className='check' to="/">Check</Link></button>
-            </div>
+              <button type="submit"><Link className='check' to="/">Check</Link></button> */}
+            {/* </div> */}
           </form>
         </div>
       </div>
