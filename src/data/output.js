@@ -1,0 +1,1 @@
+export const obj = {"label": "LABEL_0", "score": 0.9371187090873718};

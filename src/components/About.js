@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from './Navbar'
-import Output from '../data/output.json'
+import {obj} from '../data/output.js'
 
-function About() {
+function About() {  
     return (
         <div className='container'>
             <Navbar />
             <p>About</p>
-            <h1>{Output}</h1>
+            <p>{obj.label}</p>
+            <p>{obj.score}</p>
+            
         </div>
     )
 }

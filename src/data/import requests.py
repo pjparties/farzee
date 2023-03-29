@@ -18,7 +18,8 @@ __location__ = os.path.realpath(
 
 
 j = json.dumps(output[0][0])
-file = open(os.path.join(__location__, 'output.json'),'w+')
-file.write(j)
+str = "const obj = " + str(j) + ";" 
+file = open(os.path.join(__location__, 'output.js'),'w+')
+file.write(str)
 print(j)
 file.close()
