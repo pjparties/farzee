@@ -7,7 +7,14 @@ function About() {
         <div className='container'>
             <Navbar />
             <p>About</p>
-            <h1>{Output}</h1>
+            {Object.keys(Output).map((key, index) => {
+                return (
+                    <div key={index}>
+                        {/* <p>{key}</p> */}
+                        <p>{Output[key]}</p>
+                    </div>
+                )
+            })}
         </div>
     )
 }
